@@ -1,3 +1,10 @@
+"""
+Generates memes.
+
+When this file runs directly, it allows the generate_meme
+function to be ran through the terminal.
+"""
+
 import os
 import random
 import argparse

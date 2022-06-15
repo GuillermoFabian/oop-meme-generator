@@ -1,4 +1,7 @@
-"""MemeEngine class."""
+"""MemeEngine class.
+
+Make meme.
+"""
 
 import random
 import textwrap
@@ -13,6 +16,7 @@ class MemeEngine():
     def __init__(self, output_directory):
         """
         Instanciates the MemeEngine object.
+
         @param output_directory (string): intended output directory for
         the generated memes.
         """
@@ -21,6 +25,7 @@ class MemeEngine():
     def make_meme(self, img_path, body, author, req_width=500) -> str:
         """
         Create the meme.
+
         @param: img_path (string): path to image to use as base for meme.
         @param: body (string): body to use as the body text of the meme.
         @param: athor (string): author to use as the author text of the meme.

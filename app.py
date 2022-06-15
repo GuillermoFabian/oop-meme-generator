@@ -1,3 +1,11 @@
+"""
+Main app run file.
+
+This file runs the Flask app and provides two enpoints
+- / (GET)
+- /create (GET and POST)
+"""
+
 import random
 import os
 import requests

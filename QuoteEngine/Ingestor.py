@@ -24,6 +24,7 @@ class Ingestor(IngestorInterface):
     def parse(cls, path: str) -> List[QuoteModel]:
         """
         Test to see if the path extension can be parsed by any of the parsers.
+
         :param path: the file path to be tested.
         :return: none if the file cannot be parsed.
         A list of QuoteModel objects if the file can be parsed.
